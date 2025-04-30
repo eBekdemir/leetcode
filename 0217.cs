@@ -8,7 +8,7 @@ public class Solution {
 }
 
 
-// second solution
+// ------------------------------------------------------
 public class Solution {
     public bool ContainsDuplicate(int[] nums){
         Dictionary<int, bool> numbers = new Dictionary<int, bool>(nums.Length);

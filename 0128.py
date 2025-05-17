@@ -1,5 +1,20 @@
 class Solution(object):
     def longestConsecutive(self, nums):
+        nums = set(nums)
+        sequences_lengths = [0]
+        for nm in nums:
+            if (nm - 1) in nums:
+                continue
+            i = 1
+            while (nm + i) in nums:
+                i += 1
+            sequences_lengths.append(i)
+        return max(sequences_lengths)
+
+
+# ------------------------------------------------------
+class Solution(object):
+    def longestConsecutive(self, nums):
         if nums == []: return 0
         srt = sorted(set(nums))
         last = srt[0]

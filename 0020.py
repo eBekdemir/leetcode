@@ -1,3 +1,7 @@
+# URL: https://leetcode.com/problems/valid-parentheses/                        
+# TITLE: Valid Parentheses                            
+# DIFFICULTY: Easy                                
+# ------------------------------------------------------
 class Solution(object):
     def isValid(self, s):
         if len(s)%2 != 0: return False

@@ -1,3 +1,7 @@
+# URL: https://leetcode.com/problems/product-of-array-except-self/                        
+# TITLE: Product of Array Except Self                            
+# DIFFICULTY: Medium                                
+# ------------------------------------------------------
 class Solution(object):
     def prod(self, nums):
         x = 1

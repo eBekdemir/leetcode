@@ -1,3 +1,7 @@
+// URL: https://leetcode.com/problems/contains-duplicate/                        
+// TITLE: Contains Duplicate                            
+// DIFFICULTY: Easy                                
+// ------------------------------------------------------
 using System.Linq;
 public class Solution {
     public bool ContainsDuplicate(int[] nums) {

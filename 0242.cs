@@ -1,3 +1,7 @@
+// URL: https://leetcode.com/problems/valid-anagram/                        
+// TITLE: Valid Anagram                            
+// DIFFICULTY: Easy                                
+// ------------------------------------------------------
 public class Solution {
     public bool IsAnagram(string s, string t) {
         if (s.Length != t.Length){ return false; }

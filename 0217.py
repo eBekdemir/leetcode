@@ -1,3 +1,7 @@
+# URL: https://leetcode.com/problems/contains-duplicate/                        
+# TITLE: Contains Duplicate                            
+# DIFFICULTY: Easy                                
+# ------------------------------------------------------
 class Solution(object):
     def containsDuplicate(self, nums):
         """

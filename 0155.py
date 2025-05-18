@@ -1,3 +1,7 @@
+# URL: https://leetcode.com/problems/min-stack/                        
+# TITLE: Min Stack                            
+# DIFFICULTY: Medium                                
+# ------------------------------------------------------
 class MinStack(object):
 
     def __init__(self):

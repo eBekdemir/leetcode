@@ -1,3 +1,7 @@
+# URL: https://leetcode.com/problems/group-anagrams/                        
+# TITLE: Group Anagrams                            
+# DIFFICULTY: Medium                                
+# ------------------------------------------------------
 class Solution(object):
     def groupAnagrams(self, strs):
         """

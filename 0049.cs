@@ -1,3 +1,7 @@
+// URL: https://leetcode.com/problems/group-anagrams/                        
+// TITLE: Group Anagrams                            
+// DIFFICULTY: Medium                                
+// ------------------------------------------------------
 public class Solution {
     public IList<IList<string>> GroupAnagrams(string[] strs) {
         Dictionary<string, List<string>> theMap = new Dictionary<string, List<string>>();

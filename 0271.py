@@ -1,3 +1,7 @@
+# URL: https://leetcode.com/problems/encode-and-decode-strings/                        
+# TITLE: Encode and Decode Strings                            
+# DIFFICULTY: Medium                                
+# ------------------------------------------------------
 class Solution:
 
     def encode(self, strs) -> str:

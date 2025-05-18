@@ -1,3 +1,7 @@
+# URL: https://leetcode.com/problems/valid-anagram/                        
+# TITLE: Valid Anagram                            
+# DIFFICULTY: Easy                                
+# ------------------------------------------------------
 class Solution(object):
     def isAnagram(self, s, t):
         """

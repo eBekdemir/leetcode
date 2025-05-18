@@ -1,3 +1,7 @@
+# URL: https://leetcode.com/problems/longest-consecutive-sequence/                        
+# TITLE: Longest Consecutive Sequence                            
+# DIFFICULTY: Medium                                
+# ------------------------------------------------------
 class Solution(object):
     def longestConsecutive(self, nums):
         nums = set(nums)

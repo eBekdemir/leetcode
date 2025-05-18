@@ -1,3 +1,7 @@
+# URL: https://leetcode.com/problems/reverse-subarray-to-maximize-array-value/                        
+# TITLE: Reverse Subarray To Maximize Array Value                            
+# DIFFICULTY: Hard                                
+# ------------------------------------------------------
 from itertools import combinations
 
 class Solution(object):

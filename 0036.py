@@ -1,3 +1,7 @@
+# URL: https://leetcode.com/problems/valid-sudoku/                        
+# TITLE: Valid Sudoku                            
+# DIFFICULTY: Medium                                
+# ------------------------------------------------------
 class Solution(object):
     def row_valid(self, row):
         x = []

@@ -1,3 +1,7 @@
+# URL: https://leetcode.com/problems/smallest-index-with-equal-value/                        
+# TITLE: Smallest Index With Equal Value                            
+# DIFFICULTY: Easy                                
+# ------------------------------------------------------
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, val=0, next=None):

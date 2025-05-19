@@ -1,6 +1,6 @@
-# URL: https://leetcode.com/problems/smallest-index-with-equal-value/                        
-# TITLE: Smallest Index With Equal Value                            
-# DIFFICULTY: Easy                                
+# URL: https://leetcode.com/problems/merge-nodes-in-between-zeros/                        
+# TITLE: Merge Nodes in Between Zeros                            
+# DIFFICULTY: Medium                                
 # ------------------------------------------------------
 # Definition for singly-linked list.
 # class ListNode(object):

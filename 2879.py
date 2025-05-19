@@ -1,6 +1,6 @@
-# URL: https://leetcode.com/problems/minimum-changes-to-make-k-semi-palindromes/                        
-# TITLE: Minimum Changes to Make K Semi-palindromes                            
-# DIFFICULTY: Hard                                
+# URL: https://leetcode.com/problems/display-the-first-three-rows/                        
+# TITLE: Display the First Three Rows                            
+# DIFFICULTY: Easy                                
 # ------------------------------------------------------
 import pandas as pd
 def selectFirstRows(employees: pd.DataFrame) -> pd.DataFrame:

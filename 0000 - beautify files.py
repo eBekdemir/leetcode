@@ -12,7 +12,7 @@ def fetch_all_problems():
 def find_problem_title_slug_by_number(number):
     problems = fetch_all_problems()
     for p in problems:
-        if int(p['stat']['question_id']) == number:
+        if int(p['stat']['frontend_question_id']) == number:
             return p['stat']['question__title_slug']
     return None
 
@@ -63,8 +63,9 @@ def main():
             with open(file, 'r+') as f:
                 content = f.read()
                 lines = content.split('\n')
+                if lines[0].startswith('# URL: '): continue
                 details = details_of_problem(int(file.split('.')[0]))
-                if lines[0].startswith('# URL: ') or not details: continue
+                if not details: continue
                 else:
                     content = f"# URL: {details['url']}\
                         \n# TITLE: {details['title']}\
@@ -76,8 +77,9 @@ def main():
             with open(file, 'r+') as f:
                 content = f.read()
                 lines = content.split('\n')
+                if lines[0].startswith('// URL: '): continue
                 details = details_of_problem(int(file.split('.')[0]))
-                if lines[0].startswith('// URL: ') or not details: continue
+                if not details: continue
                 else:
                     content = f"// URL: {details['url']}\
                         \n// TITLE: {details['title']}\

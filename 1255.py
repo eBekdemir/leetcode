@@ -1,5 +1,5 @@
-# URL: https://leetcode.com/problems/reverse-subarray-to-maximize-array-value/                        
-# TITLE: Reverse Subarray To Maximize Array Value                            
+# URL: https://leetcode.com/problems/maximum-score-words-formed-by-letters/                        
+# TITLE: Maximum Score Words Formed by Letters                            
 # DIFFICULTY: Hard                                
 # ------------------------------------------------------
 from itertools import combinations
